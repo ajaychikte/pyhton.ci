@@ -1,0 +1,10 @@
+name : ajay-workflow
+on : dispatch_workflow
+jobs
+first-jobs
+runs-on : ubuntu-latest
+steps
+name : first-step
+run  : echo "hello"
+name : second 
+uses : actions/actions@V6
